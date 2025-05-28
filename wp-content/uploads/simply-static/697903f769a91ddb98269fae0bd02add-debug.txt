@@ -1,0 +1,1021 @@
+[2025-05-28 22:05:17] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-05-28 22:05:17] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-05-28 22:05:17] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-05-28 22:05:21] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-05-28 22:05:21] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-05-28 22:05:21] [class-ss-task.php:44] Status message: [setup] Configurar
+[2025-05-28 22:05:23] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\
+[2025-05-28 22:05:23] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/dinamica_suerte_virtual/
+[2025-05-28 22:05:23] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-05-28 22:05:23] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-28 22:05:23] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-28 22:05:23] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-05-28 22:05:23] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/
+[2025-05-28 22:05:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-05-28 22:05:23] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788a34640e-iWjMPX.tmp
+[2025-05-28 22:05:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/?simply_static_page=139
+[2025-05-28 22:05:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/?simply_static_page=139
+[2025-05-28 22:05:27] [class-ss-url-fetcher.php:103] Filesize: 221868 bytes
+[2025-05-28 22:05:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-05-28 22:05:27] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-05-28 22:05:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788a34640e-iWjMPX.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/index.html
+[2025-05-28 22:05:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:28] [class-ss-fetch-urls-task.php:159] Adding 64 URLs to the queue
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:29] [class-ss-page.php:119] Checking Content Identical:2e66547f2c504919b971e4acb286ed9407ca5478===. Value: FALSE
+[2025-05-28 22:05:29] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 1 páginas o archivos
+[2025-05-28 22:05:29] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-05-28 22:05:29] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-28 22:05:29] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:69] Total pages: 64; Pages remaining: 63
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual
+[2025-05-28 22:05:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 64
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788a921289-BbZ5yH.tmp
+[2025-05-28 22:05:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual?simply_static_page=140
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual?simply_static_page=140
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:103] Filesize: 371 bytes
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/dinamica_suerte_virtual/
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/principal/
+[2025-05-28 22:05:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 64
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788a930804-D38pzx.tmp
+[2025-05-28 22:05:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/principal/?simply_static_page=141
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/principal/?simply_static_page=141
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:103] Filesize: 282474 bytes
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:233] New filename for static page: /principal/index.html
+[2025-05-28 22:05:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788a930804-D38pzx.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/principal/index.html
+[2025-05-28 22:05:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:30] [class-ss-page.php:119] Checking Content Identical:bb7bc9067133abb07aeae7c4228c954eec7a418b===. Value: FALSE
+[2025-05-28 22:05:30] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/instrucciones-de-la-dinamica/
+[2025-05-28 22:05:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 64
+[2025-05-28 22:05:30] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788aaa49a8-JyqqIX.tmp
+[2025-05-28 22:05:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/instrucciones-de-la-dinamica/?simply_static_page=142
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/instrucciones-de-la-dinamica/?simply_static_page=142
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:103] Filesize: 184564 bytes
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:233] New filename for static page: /instrucciones-de-la-dinamica/index.html
+[2025-05-28 22:05:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788aaa49a8-JyqqIX.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/instrucciones-de-la-dinamica/index.html
+[2025-05-28 22:05:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:31] [class-ss-page.php:119] Checking Content Identical:67e60256e8311aa9d68f880c2caaf4f0819483ea===. Value: FALSE
+[2025-05-28 22:05:31] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/ticket/
+[2025-05-28 22:05:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 64
+[2025-05-28 22:05:31] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788ab8874f-aV8hUs.tmp
+[2025-05-28 22:05:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/ticket/?simply_static_page=143
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/ticket/?simply_static_page=143
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:103] Filesize: 176644 bytes
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:233] New filename for static page: /ticket/index.html
+[2025-05-28 22:05:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788ab8874f-aV8hUs.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/ticket/index.html
+[2025-05-28 22:05:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:32] [class-ss-page.php:119] Checking Content Identical:4d2ac44beb5a2e6666c059e30df0847f69a8c82a===. Value: FALSE
+[2025-05-28 22:05:32] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/modalidades-de-participacion/
+[2025-05-28 22:05:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 64
+[2025-05-28 22:05:32] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788ac7c16f-ZsTSEi.tmp
+[2025-05-28 22:05:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/modalidades-de-participacion/?simply_static_page=144
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/modalidades-de-participacion/?simply_static_page=144
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:103] Filesize: 170422 bytes
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:233] New filename for static page: /modalidades-de-participacion/index.html
+[2025-05-28 22:05:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788ac7c16f-ZsTSEi.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/modalidades-de-participacion/index.html
+[2025-05-28 22:05:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:33] [class-ss-page.php:119] Checking Content Identical:feabcc0515f797a4d6bbe86bb3b72ce1f92031e2===. Value: FALSE
+[2025-05-28 22:05:33] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/
+[2025-05-28 22:05:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 64
+[2025-05-28 22:05:33] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788ad6079c-FPNys2.tmp
+[2025-05-28 22:05:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/?simply_static_page=145
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/?simply_static_page=145
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:103] Filesize: 166666 bytes
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:233] New filename for static page: /ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/index.html
+[2025-05-28 22:05:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788ad6079c-FPNys2.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/index.html
+[2025-05-28 22:05:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:34] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:34] [class-ss-page.php:119] Checking Content Identical:ab154ea67cd3395cec13b87c52a71fe64b50cad8===. Value: FALSE
+[2025-05-28 22:05:34] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/promociones-de-este-mes/
+[2025-05-28 22:05:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 64
+[2025-05-28 22:05:34] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788ae4937c-lxfDnU.tmp
+[2025-05-28 22:05:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/promociones-de-este-mes/?simply_static_page=146
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/promociones-de-este-mes/?simply_static_page=146
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:103] Filesize: 162437 bytes
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:233] New filename for static page: /promociones-de-este-mes/index.html
+[2025-05-28 22:05:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788ae4937c-lxfDnU.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/promociones-de-este-mes/index.html
+[2025-05-28 22:05:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:35] [class-ss-page.php:119] Checking Content Identical:1de68d800c424016119745e331722f124d6b7e79===. Value: FALSE
+[2025-05-28 22:05:35] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wa.link/n5iylt
+[2025-05-28 22:05:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 64
+[2025-05-28 22:05:35] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788af39e9f-WrMIPP.tmp
+[2025-05-28 22:05:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wa.link/n5iylt?simply_static_page=147
+[2025-05-28 22:05:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wa.link/n5iylt?simply_static_page=147
+[2025-05-28 22:05:38] [class-ss-url-fetcher.php:103] Filesize: 158376 bytes
+[2025-05-28 22:05:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-05-28 22:05:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-05-28 22:05:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b2d7c86-xNAwgZ.tmp
+[2025-05-28 22:05:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wa.link/n5iylt
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:103] Filesize: 158376 bytes
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/modelaje-para-eventos-.jpg
+[2025-05-28 22:05:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 64
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b66a4b0-x2HgrN.tmp
+[2025-05-28 22:05:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/modelaje-para-eventos-.jpg?simply_static_page=148
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/modelaje-para-eventos-.jpg?simply_static_page=148
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:103] Filesize: 544628 bytes
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/modelaje-para-eventos-.jpg
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b66a4b0-x2HgrN.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/modelaje-para-eventos-.jpg
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:42] [class-ss-page.php:119] Checking Content Identical:2917d1b5b614fa1130a76e2861146af970e37fad===. Value: FALSE
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/servicios-model-boivia-.jpg
+[2025-05-28 22:05:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 64
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b69588c-9rMBYY.tmp
+[2025-05-28 22:05:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/servicios-model-boivia-.jpg?simply_static_page=149
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/servicios-model-boivia-.jpg?simply_static_page=149
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:103] Filesize: 237158 bytes
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/servicios-model-boivia-.jpg
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b69588c-9rMBYY.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/servicios-model-boivia-.jpg
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:42] [class-ss-page.php:119] Checking Content Identical:1ec7c5e156d3bc8219f225db4a6a3c84699b9dc7===. Value: FALSE
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png
+[2025-05-28 22:05:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 64
+[2025-05-28 22:05:42] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b6b28e1-TgThgk.tmp
+[2025-05-28 22:05:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png?simply_static_page=150
+[2025-05-28 22:05:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png?simply_static_page=150
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:103] Filesize: 4486488 bytes
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b6b28e1-TgThgk.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:43] [class-ss-page.php:119] Checking Content Identical:6dfc0b14b2f01b51c5a4ad65ab5d5fa132f17d5f===. Value: FALSE
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg
+[2025-05-28 22:05:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 64
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b76e3f5-En8yjE.tmp
+[2025-05-28 22:05:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg?simply_static_page=151
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg?simply_static_page=151
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:103] Filesize: 279874 bytes
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b76e3f5-En8yjE.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:43] [class-ss-page.php:119] Checking Content Identical:fc6f700a6abb77ab4f83f9bbb627eaa484e2908d===. Value: FALSE
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg
+[2025-05-28 22:05:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 64
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b790f19-sDcuNa.tmp
+[2025-05-28 22:05:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg?simply_static_page=152
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg?simply_static_page=152
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:103] Filesize: 159988 bytes
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b790f19-sDcuNa.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:43] [class-ss-page.php:119] Checking Content Identical:d380f5f50883457c66bd9f8022161a493cb65743===. Value: FALSE
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Aire1.jpg
+[2025-05-28 22:05:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 64
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b7abc12-uugDq7.tmp
+[2025-05-28 22:05:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Aire1.jpg?simply_static_page=153
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Aire1.jpg?simply_static_page=153
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:103] Filesize: 350894 bytes
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Aire1.jpg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b7abc12-uugDq7.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Aire1.jpg
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:43] [class-ss-page.php:119] Checking Content Identical:89bbab13daa7549bd95f46c1bfb68c0be3c17596===. Value: FALSE
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg
+[2025-05-28 22:05:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 64
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b7ce903-nh3vZY.tmp
+[2025-05-28 22:05:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg?simply_static_page=154
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg?simply_static_page=154
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:103] Filesize: 197752 bytes
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b7ce903-nh3vZY.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:43] [class-ss-page.php:119] Checking Content Identical:1099af87a13ba0413405ae7a6c1e3a47ac75303b===. Value: FALSE
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2025/05/Din-perfil-4.jpg
+[2025-05-28 22:05:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 64
+[2025-05-28 22:05:43] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b7e8b34-kyxey2.tmp
+[2025-05-28 22:05:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2025/05/Din-perfil-4.jpg?simply_static_page=155
+[2025-05-28 22:05:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2025/05/Din-perfil-4.jpg?simply_static_page=155
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:103] Filesize: 1109511 bytes
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/05/Din-perfil-4.jpg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b7e8b34-kyxey2.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2025/05/Din-perfil-4.jpg
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:44] [class-ss-page.php:119] Checking Content Identical:4eaa40e642168e41cae8bbed87086ec4bf1782d5===. Value: FALSE
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/main-banner.jpg
+[2025-05-28 22:05:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 64
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b83696c-ZYmIO7.tmp
+[2025-05-28 22:05:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/main-banner.jpg?simply_static_page=156
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/main-banner.jpg?simply_static_page=156
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:103] Filesize: 92322 bytes
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/images/main-banner.jpg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b83696c-ZYmIO7.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/images/main-banner.jpg
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:44] [class-ss-page.php:119] Checking Content Identical:a1261a13fd03df9dedf6c3b6c23bebb9eb56ab12===. Value: FALSE
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/hero-image.png
+[2025-05-28 22:05:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 64
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b850249-oSb5z6.tmp
+[2025-05-28 22:05:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/hero-image.png?simply_static_page=157
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images/hero-image.png?simply_static_page=157
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:103] Filesize: 251629 bytes
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/images/hero-image.png
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b850249-oSb5z6.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/images/hero-image.png
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:44] [class-ss-page.php:119] Checking Content Identical:6c38e5c4ef2bfc700e2aef0d7d62d3f881173383===. Value: FALSE
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg
+[2025-05-28 22:05:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 64
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b86e32f-9i4Cnr.tmp
+[2025-05-28 22:05:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg?simply_static_page=158
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg?simply_static_page=158
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:103] Filesize: 113211 bytes
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b86e32f-9i4Cnr.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:44] [class-ss-page.php:119] Checking Content Identical:6f2825e40c373fa7158477bffcc59410ad2c1d92===. Value: FALSE
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Blog-Modelo.jpg
+[2025-05-28 22:05:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 64
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b889f17-AbAOgT.tmp
+[2025-05-28 22:05:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Blog-Modelo.jpg?simply_static_page=159
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Blog-Modelo.jpg?simply_static_page=159
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:103] Filesize: 158754 bytes
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Blog-Modelo.jpg
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b889f17-AbAOgT.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Blog-Modelo.jpg
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:44] [class-ss-page.php:119] Checking Content Identical:adac9101f78f2c5c938b76057225331e3c86323f===. Value: FALSE
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4
+[2025-05-28 22:05:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 64
+[2025-05-28 22:05:44] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788b8a4b34-Rh1GI8.tmp
+[2025-05-28 22:05:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4?simply_static_page=160
+[2025-05-28 22:05:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4?simply_static_page=160
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:103] Filesize: 13518389 bytes
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: video/mp4
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788b8a4b34-Rh1GI8.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:46] [class-ss-page.php:119] Checking Content Identical:2380aecf7776a727ae80078b9283a28efe2005b8===. Value: FALSE
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg
+[2025-05-28 22:05:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 64
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788ba91b9a-We11jS.tmp
+[2025-05-28 22:05:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg?simply_static_page=161
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg?simply_static_page=161
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:103] Filesize: 82067 bytes
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788ba91b9a-We11jS.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:46] [class-ss-page.php:119] Checking Content Identical:dcddeae8b764283db5b4659dc20f0c77766c90a8===. Value: FALSE
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2025-05-28 22:05:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 64
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788baa8236-c1iWOW.tmp
+[2025-05-28 22:05:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=162
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=162
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788baa8236-c1iWOW.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:46] [class-ss-page.php:119] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2025-05-28 22:05:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 64
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bac14f5-h8ywto.tmp
+[2025-05-28 22:05:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=163
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=163
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bac14f5-h8ywto.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:46] [class-ss-page.php:119] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2025-05-28 22:05:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 64
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bad776f-QqxqRt.tmp
+[2025-05-28 22:05:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=164
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=164
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bad776f-QqxqRt.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:46] [class-ss-page.php:119] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/dom-ready.min.js
+[2025-05-28 22:05:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 64
+[2025-05-28 22:05:46] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788baf0c0e-Va0mSL.tmp
+[2025-05-28 22:05:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/dom-ready.min.js?simply_static_page=165
+[2025-05-28 22:05:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/dom-ready.min.js?simply_static_page=165
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788baf0c0e-Va0mSL.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/dom-ready.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/hooks.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb11d0e-KzJ0ye.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/hooks.min.js?simply_static_page=166
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/hooks.min.js?simply_static_page=166
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb11d0e-KzJ0ye.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/hooks.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/i18n.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb2776c-S2G39X.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/i18n.min.js?simply_static_page=167
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/i18n.min.js?simply_static_page=167
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb2776c-S2G39X.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/i18n.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb3db58-y0fA5N.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js?simply_static_page=168
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js?simply_static_page=168
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 1924 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb3db58-y0fA5N.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:6c6a9b1765896f6148cef04cdc5ec041c266b6dd===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb58976-Sj5ABa.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery.min.js?simply_static_page=169
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery.min.js?simply_static_page=169
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb58976-Sj5ABa.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/jquery/jquery.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb7a8a3-chzYEY.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=170
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=170
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb7a8a3-chzYEY.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bb9db68-sQbOlB.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=171
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=171
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bb9db68-sQbOlB.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bbc2f0d-og6kFB.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=172
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=172
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bbc2f0d-og6kFB.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/js/animate.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 64
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bbdd2de-L3FijV.tmp
+[2025-05-28 22:05:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/js/animate.min.js?simply_static_page=173
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/js/animate.min.js?simply_static_page=173
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:103] Filesize: 1377 bytes
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/js/animate.min.js
+[2025-05-28 22:05:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bbdd2de-L3FijV.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/js/animate.min.js
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:47] [class-ss-page.php:119] Checking Content Identical:fd88bf020cc59bc8e5da824f24678a8eae669161===. Value: FALSE
+[2025-05-28 22:05:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/view.min.js
+[2025-05-28 22:05:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bc00b7e-jfTcLu.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/view.min.js?simply_static_page=174
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/view.min.js?simply_static_page=174
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bc00b7e-jfTcLu.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/navigation/view.min.js
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/view.min.js
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bc1b2ed-HiVcyh.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/view.min.js?simply_static_page=175
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/view.min.js?simply_static_page=175
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 3960 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/view.min.js
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bc1b2ed-HiVcyh.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/image/view.min.js
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:e1e705f6da1a0f101ea41db67d6941eabcc4f066===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bc37476-dqEmPc.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=176
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=176
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bc37476-dqEmPc.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bc54cd2-IL134X.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=177
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=177
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bc54cd2-IL134X.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/feed/
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/dinamica_suerte_virtual/feed/
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/comments/feed/
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/dinamica_suerte_virtual/comments/feed/
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/style.min.css
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bc83032-djYFrT.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/style.min.css?simply_static_page=180
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/navigation/style.min.css?simply_static_page=180
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bc83032-djYFrT.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/navigation/style.min.css
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/social-links/style.min.css
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bca9634-VOZ8AZ.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/social-links/style.min.css?simply_static_page=181
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/social-links/style.min.css?simply_static_page=181
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bca9634-VOZ8AZ.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/social-links/style.min.css
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:6c08f679daa13a669bfdf48b1ca7a03f6312de07===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/style.min.css
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bccd8d0-pkwRHI.tmp
+[2025-05-28 22:05:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/style.min.css?simply_static_page=182
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/image/style.min.css?simply_static_page=182
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2025-05-28 22:05:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bccd8d0-pkwRHI.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/image/style.min.css
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:48] [class-ss-page.php:119] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2025-05-28 22:05:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 64
+[2025-05-28 22:05:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bcf32ea-vG91EL.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css?simply_static_page=183
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css?simply_static_page=183
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 8103 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bcf32ea-vG91EL.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:bfb1c8850763a305d91df56f43961745c2da7494===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bd24b73-56Sihp.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css?simply_static_page=184
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css?simply_static_page=184
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 13934 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bd24b73-56Sihp.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:efac6d5e2e77579229edcf3eca3584e8a40f2822===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/cover/style.min.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bd49e8c-cw2e0q.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/cover/style.min.css?simply_static_page=185
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/cover/style.min.css?simply_static_page=185
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 18483 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bd49e8c-cw2e0q.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/cover/style.min.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:ccfb7af42aa2a6c835fe114841124074d139e257===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bd6e3e2-xAiOlf.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css?simply_static_page=186
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css?simply_static_page=186
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 4560 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bd6e3e2-xAiOlf.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:af3315bb6a799e580eff29d9c0d276185250c2d3===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/gallery/style.min.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bd917f9-6HYsab.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/blocks/gallery/style.min.css?simply_static_page=187
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/blocks/gallery/style.min.css?simply_static_page=187
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 15305 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/gallery/style.min.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bd917f9-6HYsab.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/blocks/gallery/style.min.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:804acf558af01f54052a7bdac05ef942c6ada35a===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bdb7008-F5LOj4.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css?simply_static_page=188
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css?simply_static_page=188
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 75602 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bdb7008-F5LOj4.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:49] [class-ss-page.php:119] Checking Content Identical:73551a203fc230857f9719627ff1066f0d25d230===. Value: FALSE
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/animate.css
+[2025-05-28 22:05:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 64
+[2025-05-28 22:05:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788bde5ae1-9mSZAY.tmp
+[2025-05-28 22:05:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/animate.css?simply_static_page=189
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/animate.css?simply_static_page=189
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:103] Filesize: 69160 bytes
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/css/animate.css
+[2025-05-28 22:05:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788bde5ae1-9mSZAY.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/css/animate.css
+[2025-05-28 22:05:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:50] [class-ss-page.php:119] Checking Content Identical:19c1f4288b310c6d13e3b07015e55a03378e35a2===. Value: FALSE
+[2025-05-28 22:05:50] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 1 de 64 páginas o archivos
+[2025-05-28 22:05:50] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-05-28 22:05:53] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-28 22:05:53] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:69] Total pages: 64; Pages remaining: 13
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css
+[2025-05-28 22:05:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 64
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c1a8163-w6ZgSz.tmp
+[2025-05-28 22:05:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css?simply_static_page=190
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css?simply_static_page=190
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:103] Filesize: 1 bytes
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css
+[2025-05-28 22:05:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c1a8163-w6ZgSz.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:53] [class-ss-page.php:119] Checking Content Identical:b858cb282617fb0956d960215c8e84d1ccf909c6===. Value: FALSE
+[2025-05-28 22:05:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/style.css
+[2025-05-28 22:05:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 64
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c2026eb-VUcFla.tmp
+[2025-05-28 22:05:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/style.css?simply_static_page=191
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/style.css?simply_static_page=191
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:103] Filesize: 50970 bytes
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-business-dark/style.css
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c2026eb-VUcFla.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/themes/gutenify-business-dark/style.css
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:54] [class-ss-page.php:119] Checking Content Identical:bd034c696d2bdde3128f5ce75c708cf6830b6aa0===. Value: FALSE
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2025-05-28 22:05:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 64
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c24b60b-94uJcs.tmp
+[2025-05-28 22:05:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=192
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=192
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:103] Filesize: 55407 bytes
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2025-05-28 22:05:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c24b60b-94uJcs.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:54] [class-ss-page.php:119] Checking Content Identical:71c01b35a09cf4d9b4fe9dd20ca21109f2db8f34===. Value: FALSE
+[2025-05-28 22:05:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css
+[2025-05-28 22:05:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 64
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c31237d-UnaNye.tmp
+[2025-05-28 22:05:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css?simply_static_page=193
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css?simply_static_page=193
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:103] Filesize: 23819 bytes
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c31237d-UnaNye.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:55] [class-ss-page.php:119] Checking Content Identical:8178e5d11f45ebfa9b629892757cca3a88c3527d===. Value: FALSE
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2025-05-28 22:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 64
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c358b55-7QUgMp.tmp
+[2025-05-28 22:05:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=194
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=194
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2025-05-28 22:05:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c358b55-7QUgMp.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:55] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-json/
+[2025-05-28 22:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 64
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/dinamica_suerte_virtual/wp-json/
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-28 22:05:55] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/xmlrpc.php
+[2025-05-28 22:05:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 64
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/dinamica_suerte_virtual/xmlrpc.php
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon-96x96.png
+[2025-05-28 22:05:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 64
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c47fb69-8hFHgy.tmp
+[2025-05-28 22:05:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon-96x96.png?simply_static_page=197
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon-96x96.png?simply_static_page=197
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:103] Filesize: 18948 bytes
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:233] New filename for static page: _base/wp-content/uploads/fbrfg/favicon-96x96.png
+[2025-05-28 22:05:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c47fb69-8hFHgy.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\_base/wp-content/uploads/fbrfg/favicon-96x96.png
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:56] [class-ss-page.php:119] Checking Content Identical:a4d5525cbe9cd035233f8cf20c384972c959aa46===. Value: FALSE
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.svg
+[2025-05-28 22:05:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 64
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c51c652-FsLP7p.tmp
+[2025-05-28 22:05:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.svg?simply_static_page=198
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.svg?simply_static_page=198
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:103] Filesize: 842135 bytes
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:233] New filename for static page: _base/wp-content/uploads/fbrfg/favicon.svg
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c51c652-FsLP7p.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\_base/wp-content/uploads/fbrfg/favicon.svg
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:57] [class-ss-page.php:119] Checking Content Identical:81f8c56e03163756995209f568c67bcde8e331b6===. Value: FALSE
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.ico
+[2025-05-28 22:05:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 64
+[2025-05-28 22:05:57] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c5cf687-5Uk3aq.tmp
+[2025-05-28 22:05:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.ico?simply_static_page=199
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/favicon.ico?simply_static_page=199
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:103] Filesize: 15086 bytes
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/x-icon
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:233] New filename for static page: _base/wp-content/uploads/fbrfg/favicon.ico
+[2025-05-28 22:05:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c5cf687-5Uk3aq.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\_base/wp-content/uploads/fbrfg/favicon.ico
+[2025-05-28 22:05:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:58] [class-ss-page.php:119] Checking Content Identical:59074e1552df7c8b6be490b11512ccdcfb4495b8===. Value: FALSE
+[2025-05-28 22:05:58] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/apple-touch-icon.png
+[2025-05-28 22:05:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 64
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c740308-3JqJHi.tmp
+[2025-05-28 22:05:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/apple-touch-icon.png?simply_static_page=200
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/apple-touch-icon.png?simply_static_page=200
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:103] Filesize: 58380 bytes
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:233] New filename for static page: _base/wp-content/uploads/fbrfg/apple-touch-icon.png
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c740308-3JqJHi.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\_base/wp-content/uploads/fbrfg/apple-touch-icon.png
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:59] [class-ss-page.php:119] Checking Content Identical:a1a0034cea3ac65e688d9b9727647c0fd9efcda1===. Value: FALSE
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/site.webmanifest
+[2025-05-28 22:05:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 64
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c77e2dc-aYkyKO.tmp
+[2025-05-28 22:05:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/site.webmanifest?simply_static_page=201
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual_base/wp-content/uploads/fbrfg/site.webmanifest?simply_static_page=201
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:103] Filesize: 544 bytes
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:233] New filename for static page: _base/wp-content/uploads/fbrfg/site.webmanifest
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c77e2dc-aYkyKO.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\_base/wp-content/uploads/fbrfg/site.webmanifest
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:59] [class-ss-page.php:119] Checking Content Identical:82e1e218e4da654fe683818736350e776c14945c===. Value: FALSE
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:73] URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/interactivity.min.js
+[2025-05-28 22:05:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 64
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/683788c791147-w7F9n4.tmp
+[2025-05-28 22:05:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/interactivity.min.js?simply_static_page=202
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dinamica_suerte_virtual/wp-includes/js/dist/interactivity.min.js?simply_static_page=202
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2025-05-28 22:05:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/683788c791147-w7F9n4.tmp to C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917/wp-includes/js/dist/interactivity.min.js
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-05-28 22:05:59] [class-ss-page.php:119] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2025-05-28 22:05:59] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 51 de 64 páginas o archivos
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-05-28 22:05:59] [class-ss-fetch-urls-task.php:69] Total pages: 64; Pages remaining: 0
+[2025-05-28 22:05:59] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 64 de 64 páginas o archivos
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:233] We've found our next task: transfer_files_locally
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:263] Cleaning on first run for task: transfer_files_locally
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:194] Current task: transfer_files_locally
+[2025-05-28 22:05:59] [class-ss-archive-creation-job.php:208] Performing task: transfer_files_locally
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /principal/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/principal
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /instrucciones-de-la-dinamica/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/instrucciones-de-la-dinamica
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /ticket/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/ticket
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /modalidades-de-participacion/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/modalidades-de-participacion
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/ahora-cambio-la-forma-de-comprar-tus-articulos-y-productos-de-belleza
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /promociones-de-este-mes/index.html
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/promociones-de-este-mes
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/modelaje-para-eventos-.jpg
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/servicios-model-boivia-.jpg
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Poster-Cartel-de-Viaje-Vacaciones-Caribe-Mar-Playa-Celeste-Azul-Arena_20240129_090244_0000.png
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:05:59] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Cartel-de-Cerveza-moderno-con-fotos-blanca-y-Negra-Poster.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/flyer-taller-mecanico-fotografia-negro.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Aire1.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/JuegaDinamica-de-suerte-virtual-.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/05/Din-perfil-4.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2025/05
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/images/main-banner.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/images/hero-image.png
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/images
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Publicidad-Model-Bolivia.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Blog-Modelo.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/10/Dark-Blue-White-Modern-Simple-Tips-TikTok-Video.mp4
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/10
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2024/09/Participa-en-enventos-1-1.jpg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/uploads/2024/09
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist/vendor
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist/vendor
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist/vendor
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/dom-ready.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/hooks.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/i18n.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/jquery
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/jquery
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/js/animate.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/navigation/view.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/navigation
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/image/view.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/image
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/navigation/style.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/navigation
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/social-links/style.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/social-links
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/image/style.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/image
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/css/lib
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/cover/style.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/cover
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/blocks/team-member/style-index.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/blocks/team-member
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/gallery/style.min.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/blocks/gallery
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/css/font-awesome/css/all.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css/font-awesome/css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/css/animate.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark/css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/fonts/0de54275a30c4066f625d96ef3534cf1.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/fonts
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/gutenify-business-dark/style.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/themes/gutenify-business-dark
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:58. Processed Pages: 50
+[2025-05-28 22:06:00] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferidos 50 de 58 archivos
+[2025-05-28 22:06:00] [trait-can-process-pages.php:118] Total pages: 58; Pages remaining: 8
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:241] We're not done with the transfer_files_locally task yet
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:194] Current task: transfer_files_locally
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:208] Performing task: transfer_files_locally
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/fonts/db1f694a3cf2b867b050f5f5a96b39eb.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/fonts
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: _base/wp-content/uploads/fbrfg/favicon-96x96.png
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/_base/wp-content/uploads/fbrfg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: _base/wp-content/uploads/fbrfg/favicon.svg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/_base/wp-content/uploads/fbrfg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: _base/wp-content/uploads/fbrfg/favicon.ico
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/_base/wp-content/uploads/fbrfg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: _base/wp-content/uploads/fbrfg/apple-touch-icon.png
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/_base/wp-content/uploads/fbrfg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: _base/wp-content/uploads/fbrfg/site.webmanifest
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/_base/wp-content/uploads/fbrfg
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/interactivity.min.js
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/xampp/htdocs/dinamica_suerte_virtual/wp-includes/js/dist
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:58. Processed Pages: 58
+[2025-05-28 22:06:00] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferidos 58 de 58 archivos
+[2025-05-28 22:06:00] [trait-can-process-pages.php:118] Total pages: 58; Pages remaining: 0
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-05-28 22:06:00] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\xampp\htdocs\dinamica_suerte_virtual/wp-content/uploads\simply-static\temp-files/simply-static-1-1748469917\404\index.html
+[2025-05-28 22:06:00] [class-ss-task.php:44] Status message: [destination_url] URL de destino: <a href="https://modelbolivia.github.io/dinamica_suerte_virtual/" target="_blank">https://modelbolivia.github.io/dinamica_suerte_virtual/</a>
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-05-28 22:06:00] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-05-28 22:06:00] [class-ss-task.php:44] Status message: [wrapup] Terminando
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-05-28 22:06:00] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-05-28 22:06:01] [class-ss-archive-creation-job.php:414] Status message: [done] ¡Hecho! Ha finalizado en 00:00:43
